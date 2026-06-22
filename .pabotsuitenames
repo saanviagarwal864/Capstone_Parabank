@@ -1,0 +1,27 @@
+datasources:dbb7f4b7f32dad0a83c2bce3ec8db59328e3d991
+commandlineoptions:5ea3922db11a42de3fa4c89e9d9f06972f891d9e
+suitesfrom:no-suites-from-option
+file:5ae3928111e82c24ecdd71e36acabb4e9cdf8e8b
+--suite Tests.API.TC-API-01 GET Accounts
+--suite Tests.API.TC-API-02 Test verify accountID
+--suite Tests.API.TC-API-03 Validate account
+--suite Tests.API.TC-API-04 Validate source balance
+--suite Tests.API.TC-API-05 Validate destination balance
+--suite Tests.Defects.TC-UI-09 Fund transfer same account
+--suite Tests.Defects.TC-UI-10 Fund transfer invalid amount
+--suite Tests.Defects.TC-UI-11 Fund transfer non numeric amount
+--suite Tests.Defects.TC-UI-12 Tranfer funds without login
+--suite Tests.Hybrid.TC-E2E-01 Checking account create and validate
+--suite Tests.Hybrid.TC-E2E-02 Savings account create and validate
+--suite Tests.Hybrid.TC-E2E-03 Debit Equals Credit
+--suite Tests.Hybrid.TC-E2E-04 Full E2E Lifecycle
+--suite Tests.Negative.TC-API-06 Invalid Customer ID
+--suite Tests.Negative.TC-UI-03 Register with empty fields
+--suite Tests.Negative.TC-UI-04 Password mismatch
+--suite Tests.Negative.TC-UI-05 Duplicate Username
+--suite Tests.Negative.TC-UI-13 Invalid Credentials
+--suite Tests.UI.TC-UI-01 Register user
+--suite Tests.UI.TC-UI-02 Test Login User
+--suite Tests.UI.TC-UI-06 Test Savings Account
+--suite Tests.UI.TC-UI-07 Test Checking Account
+--suite Tests.UI.TC-UI-08-Test Transfer Funds
