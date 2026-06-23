@@ -11,7 +11,6 @@ Test Teardown    Close Application
 TC-UI-11-Non-numeric amount transfer
     [Documentation]    Transferring non-numeric amount should show invalid amount but shows internal error.
     [Tags]    Defect
-    Skip  DEF-04
     Register Or Login User
     Open Transfer Funds Page
     Input Transfer Amount    abc

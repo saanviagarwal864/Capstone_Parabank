@@ -11,7 +11,6 @@ Test Teardown    Close Application
 TC-UI-12-Access transfer funds page
     [Documentation]    Access transfer funds page without logging in the user.
     [Tags]    Defect
-    Skip  DEF-01
     Open Transfer Funds Page
     Sleep    5s
     ${url}=    Get Location

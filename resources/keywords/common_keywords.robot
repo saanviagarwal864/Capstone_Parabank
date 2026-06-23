@@ -5,7 +5,7 @@ Resource  ../../resources/pages/login_page.robot
 Resource  ../../resources/pages/register_page.robot
 
 *** Variables ***
-${BROWSER}  edge
+${BROWSER}  chrome
 ${UI_ENV}  qa_ui
 
 *** Keywords ***

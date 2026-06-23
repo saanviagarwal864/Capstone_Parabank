@@ -11,7 +11,6 @@ Test Teardown    Close Application
 TC-UI-09-Same account transfer
     [Documentation]    Fund transfer between same account should be invalid but is valid and successful.
     [Tags]    Defect
-    Skip  DEF-02
     Register Or Login User
     Open Transfer Funds Page
     Input Transfer Amount    100

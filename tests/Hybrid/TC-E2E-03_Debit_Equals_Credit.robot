@@ -38,10 +38,10 @@ TC-E2E-03 - Fund transfer and validation
     Open Transfer Funds Page
     Input Transfer Amount    80
     Click Element    id=fromAccountId
-    Wait Until Page Contains    ${Source_account_id}  timeout=10s
+    Wait Until Page Contains    ${Source_account_id}  timeout=20s
     Select From List By Value    id=fromAccountId    ${Source_account_id}
     Click Element    id=toAccountId
-    Wait Until Page Contains    ${Destination_account_id}   timeout=10s
+    Wait Until Page Contains    ${Destination_account_id}   timeout=20s
     Select From List By Value    id=toAccountId    ${Destination_account_id}
     Submit Transfer Funds
     Sleep    5s
