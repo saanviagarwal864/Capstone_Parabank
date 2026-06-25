@@ -23,7 +23,7 @@ Open Application
     [Documentation]  Opens the application
     Open Browser  ${BASE_URL}  ${BROWSER}
     Maximize Browser Window
-    Sleep    30
+    Sleep    7s
 
 Close Application
     [Documentation]  Closing the application
